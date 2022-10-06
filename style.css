@@ -21,3 +21,13 @@ p {
 em strong {
     color: #FF0000;
 }
+.beneficios{
+    text-align: left;
+    background-color: black;
+}
+ul{
+    display: inline-block;
+}
+.foto-beneficios{
+    width: 40%;
+}
