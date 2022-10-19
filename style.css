@@ -1,33 +1,79 @@
 body {
-    background: #09C184
-}
-
-#capa {
-    width: 50%;
-}
-
-h1 {
-    text-align: center
-}
-
-p {
     text-align: center;
+    background: linear-gradient( #f08383e7, #d3223a);
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
-
-#missao {
-    font-size: 20px
+header {
+    padding: 24px;
 }
-
-em strong {
-    color: #FF0000;
+.caixa {
+    display: inline;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
 }
-.beneficios{
+h3 {
     text-align: left;
-    background-color: black;
 }
-ul{
+.imagem-logo {
+    width: 10%;
+    margin-left: 18px;
+    border-radius: 90px;
+    box-shadow: 2px 2px 2px #111111;
+}
+nav {
+    position: absolute;
+    top: 90px;
+    right: 65px;
+}
+nav a {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px rgba(202, 16, 16, 0.733);
+    color: #f7ca33;
+    transition: 0.5s;
+
+}
+.capa {
+    width: 100%;
+}
+.principal h1 {
+    font-size: 65px;
+    font-style: italic;
+}
+.principal p {
+    font-size: 25px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.beneficios {
+    text-align: left;
+}
+.beneficios h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+}
+.beneficios ul {
     display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 100px 50px 20px 200px;
 }
-.foto-beneficios{
+.beneficios ul li {
+    padding: 15px;
+    font-size: 25px;
+}
+.foto-beneficios {
     width: 40%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px #111111;
 }
