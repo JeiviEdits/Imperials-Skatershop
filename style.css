@@ -1,7 +1,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient( #ff0301, #d3223a);
+    background: linear-gradient( #000000, #001aff);
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
@@ -38,8 +38,8 @@ nav a {
 nav a:hover{
     font-size: 25px;
     font-weight: bold;
-    text-shadow: 2px 3px 5px rgb(253, 12, 12);
-    color: #f7ca33;
+    text-shadow: 2px 3px 5px rgb(12, 185, 253);
+    color: #33a9f7;
     transition: 0.5s;
 
 }
